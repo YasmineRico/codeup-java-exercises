@@ -13,12 +13,10 @@ public class ConsoleExercises {
         System.out.println("You entered: --> \"" + userInput + "\" <--");
         scanner.nextLine();
 
-        System.out.print("Enter 1 word: ");
-        String userWord = scanner.nextLine();
-        System.out.print("Enter second word: ");
-        String userWord1 = scanner.nextLine();
-        System.out.print("Enter 3rd word: ");
-        String userWord2 = scanner.nextLine();
+        System.out.print("Enter 3 words: ");
+        String userWord = scanner.next();
+        String userWord1 = scanner.next();
+        String userWord2 = scanner.next();
         System.out.println("You entered:\n" +userWord +"\n" +userWord1+ "\n" +userWord2);
         scanner.nextLine();
 
