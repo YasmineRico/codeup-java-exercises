@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+
 public class Bob {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -7,11 +9,14 @@ public class Bob {
 
             if (userInput.endsWith("!")) {
                 System.out.println("Woah, chill out!");
+
             } else if (userInput.endsWith("?")) {
                 System.out.println("Sure");
-            } else if (userInput.equals("")) {
+            } else if (userInput.isEmpty()) {
                 System.out.println("Fine. Be that way!");
             } else
                 System.out.println("Whatever.");
+            System.out.print("Bob got bored and left the chat....");
     }
+
 }
