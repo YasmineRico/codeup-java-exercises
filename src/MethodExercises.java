@@ -21,6 +21,13 @@ public static int subtraction(int num1, int num2){
     return num1 - num2;
 }
 public static int multiplication(int num1, int num2) {
+    //  return Math.multiplyExact(num1, num2);
+    //   int result = 0;
+    //   for (int i =0; i < num1; i ++){
+    //       result += num2;
+    //   }
+    //   return result;
+
     if (num1 == 0 || num2 == 0) {
         return 0;
     } else if (num2 < 0) {
