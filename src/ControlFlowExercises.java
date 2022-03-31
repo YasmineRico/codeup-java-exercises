@@ -11,7 +11,7 @@ public class ControlFlowExercises {
 //        do{
 //            System.out.println(i);
 //            i *= i;
-//        }while (i <= 1000000);
+//        }while (i <= 1000000); // you can put underscores to seperate the 0's
 //        for (long i =2; i < 1000000; i *=i){
 //            System.out.println(i);
 //        }
@@ -32,20 +32,20 @@ public class ControlFlowExercises {
 //            else System.out.println(s);
 //        }
         Scanner sc = new Scanner(System.in);
-//        System.out.print("What number would you like to go up to? ");
-//        int userInt = sc.nextInt();
-//        System.out.println("");
-//        System.out.println("Here is your table!");
-//        System.out.println("");
-//        System.out.println("number | squared | cubed");
-//        System.out.println("------ | ------- | -----");
-//
-//        for (int i = 1; i <= userInt; i++) {
-//            System.out.println(i + "      | " + (i * i) + "       |" + "  " + (i * i * i));
-//        }
+        System.out.print("What number would you like to go up to? ");
+        int userInt = sc.nextInt();
+        System.out.println("");
+        System.out.println("Here is your table!");
+        System.out.println("");
+        System.out.println("number | squared | cubed");
+        System.out.println("***** | ***** | *****");
+
+        for (int i = 1; i <= userInt; i++) {
+            System.out.println(i + "      | " + (i * i) + "       |" + "  " + (i * i * i));
+        }
+
         System.out.print("Please enter your grade: ");
         double score = sc.nextDouble();
-
         //convert user numeric grade into letter grade
         char userGrade = 'F';
         if (score >= 90)
