@@ -29,10 +29,10 @@ public class Input {
         int num = scanner.nextInt();
 
         if (num >= min && num <= max) {
-            System.out.println("Great");
+            System.out.println("Thanks for choosing a number 1-10");
             return num;
         } else {
-            System.out.println("hmm can you choose another number?");
+            System.out.println("hmm can you choose another number? .. hint a number 1-10");
             return num;
         }
     }
