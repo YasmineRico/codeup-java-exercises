@@ -16,15 +16,12 @@ public class ArraysExercises {
             System.out.println(Person);
         }
         String[] people = Arrays.copyOf(Persons, 4);
+        System.out.println(Arrays.toString(people));//Shows the array length is now 4 spots and returns the index of 3 with "null"
         people[3] = "Ama";
         System.out.println(Arrays.toString(people));
 
         }
-    String  person;
-    public  void addPerson (String name) {
-        person = name;
-    }
 
-    }
+}
 
 
