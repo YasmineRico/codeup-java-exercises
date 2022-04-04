@@ -25,5 +25,4 @@ public class ServerNameGenerator {
         System.out.println(Nouns()+ "-"+ Adjectives());
     }
 
-
 }
