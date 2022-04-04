@@ -28,7 +28,7 @@ public class Person {
 //        Person person2 = new Person("John");
 //        //Compares the persons to see if they hold the same value
 //        System.out.println(person1.getName().equals(person2.getName()));
-//        //is false they are not the same "person" just the same value
+      //is false as they are comparing the instances (basically person 1 is a different person than person 2. comparing data types/location in memory
 //        System.out.println(person1 == person2);
 
         Person person1 = new Person("John");
