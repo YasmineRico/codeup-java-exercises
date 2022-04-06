@@ -8,7 +8,7 @@ public class Student {
 
     public Student(String name){
         this.name= name;
-        grades = new ArrayList<>();
+        this.grades = new ArrayList<>();
     }
 
     public String getName(){
@@ -24,7 +24,7 @@ public class Student {
         for (Integer grade: grades) total += grade;
         return total/grades.size();
     }
-
+//Javier said not to do this... whoops.
     public static void main(String[] args) {
         Student thomas = new Student("Thomas");
         thomas.getName();
@@ -34,6 +34,8 @@ public class Student {
         System.out.println(thomas.getName());
         System.out.println(thomas.getGradeAverage());
     }
+
+
 
 }
 
