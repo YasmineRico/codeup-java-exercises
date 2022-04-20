@@ -48,8 +48,10 @@ class Dish {
             dish2.printSummary();
 
         }
+
+
         public static class DishTools {
-            public int avgCostOfDishInCents = 13000;
+            public static int avgCostOfDishInCents = 13000;
             public String shoutDishName;
             public String analyzeDishCost;
             public boolean flipRecommendation;
@@ -91,6 +93,9 @@ class Dish {
                 this.shoutDishName = shoutDishName;
                 this.analyzeDishCost = analyzeDishCost;
                 this.flipRecommendation = flipRecommendation;
+            }
+            public void printSummary(){
+                System.out.printf("Average Cost:  %d \nDish Name: %s\nRecommended: %b", avgCostOfDishInCents, shoutDishName, analyzeDishCost, flipRecommendation);
             }
 
         }
