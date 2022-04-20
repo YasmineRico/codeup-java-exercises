@@ -39,7 +39,9 @@ public class Input {
 
     public int getInt(){
         System.out.println();
-        return this.scanner.nextInt();
+        String userInput = getString();
+       return  Integer.parseInt(userInput);
+
     }
 
     public double getDouble(double min, double max) {

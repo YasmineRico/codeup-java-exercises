@@ -11,6 +11,7 @@ public class InputTest {
         System.out.println("scanner.getInt(min, max) = " + scanner.getInt(1,10));
 
         System.out.println("scanner.getInt(min, max) = " + scanner.getDouble(1,10));
+        System.out.println(scanner.getInt());
     }
 
 }
