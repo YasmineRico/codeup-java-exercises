@@ -17,3 +17,6 @@ public class CollectionsMiniExercise {
 
 
 }
+//lists
+//maps key valued pairs every key refers to a value
+//sets collections of unique items.
